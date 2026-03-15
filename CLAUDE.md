@@ -5,7 +5,7 @@ SMS-шлюз для отправки и приёма SMS через Android-те
 ## Архитектура
 
 ```
-Клиент → [FastAPI :8080] → [ADB USB forward :8081] → [Android SMS Gateway app] → SMS
+Клиент → [FastAPI :8095] → [ADB USB forward :8081] → [Android SMS Gateway app] → SMS
                          ← webhook входящих SMS ←
 ```
 
